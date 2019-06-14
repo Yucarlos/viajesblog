@@ -1,0 +1,50 @@
+body {
+  background-image: url(../img/fondobg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.titulo {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia;
+}
+.imgradius {
+  border-radius: 10px !important;
+}
+.navegacion {
+  margin-top: 20px;
+  padding: 0px 0px 0px 0px !important;
+}
+.imgwacht {
+  float: left !important;
+  width: 180px !important;
+  height: 180px !important;
+  margin: 5px;
+}
+.imgperfil {
+  width: 170px !important;
+  height: 170px !important;
+}
+.input-field input[type=text]:focus {
+  color: rgb(236, 227, 227);
+}
+.input-field input[type=email]:focus {
+  color: rgb(236, 227, 227);
+}
+textarea.materialize-textarea:focus {
+  color:  rgb(236, 227, 227) !important;
+  opacity: 1;
+}
+@media print,screen and (max-width:1085px) {
+  h4 {
+    font-size: 1.65rem!important;
+  }
+}
+@media print,screen and (max-width:900px) {
+  .imgwacht {
+    float: center !important;
+    width: 180% !important;
+    height: 100% !important;
+  } 
+}
